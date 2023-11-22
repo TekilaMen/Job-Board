@@ -1,0 +1,75 @@
+/* Navbar */
+nav {
+  background-color: #000;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+nav a {
+  color: #fff;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+/* Button Navbar */
+
+#home {
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+#home:hover {
+  color: #ecc1a1;
+  transform: scale(1.1, 1.1);
+}
+
+.navRight {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navbutton {
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.navbutton:focus,
+.navbutton:hover {
+  color: #fca311;
+}
+
+.navbutton:focus:after,
+.navbutton:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.navbutton:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fca311;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}

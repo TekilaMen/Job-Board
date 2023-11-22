@@ -1,0 +1,48 @@
+.mailbox {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.email {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.email-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.email-sender {
+    font-weight: bold;
+}
+
+.email-date {
+    color: #999;
+}
+
+.email-subject {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.email-message {
+    margin: 0;
+}

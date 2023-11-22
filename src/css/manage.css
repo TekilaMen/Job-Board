@@ -1,0 +1,101 @@
+h1 {
+  margin-top: 2.5vh;
+  text-align: center;
+  font-family: Pacifico;
+  font-size: 2.5rem;
+  font-weight: bold;
+
+  color: #14213d;
+
+  border-radius: 10px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.add {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  
+    color: #14213d;
+  
+    border-radius: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #14213d;
+}
+
+td {
+  padding: 5px;
+  color: #14213d;
+  background-color: #e5e5e5;
+}
+
+th {
+  padding: 5px;
+  color: #14213d;
+  background-color: #fca311;
+}
+
+button {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #14213d;
+  color: #fca311;
+  transition: all 0.5;
+}
+
+button:hover {
+  background-color: #fca311;
+  color: #14213d;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+input {
+    background-color: #e5e5e5;
+    display: flex;
+    margin: 5px;
+    color: #14213d;
+    text-align: center;
+}
+
+input:hover {
+    background-color: #fca311;
+    color: #14213d;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+select {
+    background-color: #e5e5e5;
+    display: flex;
+    margin: 5px;
+    color: #14213d;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
